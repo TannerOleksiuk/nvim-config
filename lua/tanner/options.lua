@@ -6,3 +6,5 @@ vim.opt.shiftwidth = 4 -- Number of spaces inserted when indenting
 -- Auto and Smart indentings
 vim.opt.autoindent = true -- Auto indent continues indent level when a new line is started
 vim.opt.smartindent = true -- Smart indent (indents automatically for C-style languages i.e. after {} etc...)
+-- Setup line numbers
+vim.opt.number = true
