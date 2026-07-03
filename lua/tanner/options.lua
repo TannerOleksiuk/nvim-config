@@ -8,3 +8,16 @@ vim.opt.autoindent = true -- Auto indent continues indent level when a new line 
 vim.opt.smartindent = true -- Smart indent (indents automatically for C-style languages i.e. after {} etc...)
 -- Setup line numbers
 vim.opt.number = true 
+-- Setup clipboard
+--vim.opt.clipboard = 'unnamedplus'
+--vim.g.clipboard = {
+--	name = 'OSC 52',
+--	copy = {
+--		['+'] = require('vim.ui.clipboard.osc52').copy('+'),
+--		['*'] = require('vim.ui.clipboard.osc52').copy('*'),
+--	},
+--	paste = {
+--		['+'] = require('vim.ui.clipboard.osc52').paste('+'),
+--		['*'] = require('vim.ui.clipboard.osc52').paste('*'),
+--	},
+--}
